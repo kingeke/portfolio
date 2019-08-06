@@ -1,12 +1,12 @@
-const link = 'https://kingeke.github.io/portfolio'
+const link = `https://kingeke.github.io/portfolio`
 
 const works = `${link}/img/works`
 const websites = `${works}/websites`
 const graphicsLink = `${works}/graphics`
 
-export const avatar = '/img/avatar.jpg'
-export const reactNative = '/img/Icons/react-native.png'
-export const afterEffects = '/img/Icons/after-effects.png'
+export const avatar = `${link}/img/avatar.jpg`
+export const reactNative = `${link}/img/Icons/react-native.png`
+export const afterEffects = `${link}/img/Icons/after-effects.png`
 export const kainetix = [
     `${websites}/kainetix-landing-page.png`,
     `${websites}/kainetix-blog-page.png`,
