@@ -9,7 +9,7 @@ export default function Contact() {
                 <div className="row vh-100">
                     <div className="col-12 my-auto p-5 text-center">
                         <h1>Contact Me</h1>
-                        <h4>Intersted in working with me? <Emoji symbol="😎" label="cool" /></h4>
+                        <h4>Interested in working with me? <Emoji symbol="😎" label="cool" /></h4>
                         <h4>Send an email or contact me on WhatsApp <Emoji symbol="😉" label="wink" /></h4>
                         <div className="row mt-4">
                             <div className="col text-right">
