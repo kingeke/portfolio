@@ -1,4 +1,4 @@
-const works = '/img/works'
+const works = 'img/works'
 const websites = `${works}/websites`
 const graphicsLink = `${works}/graphics`
 
