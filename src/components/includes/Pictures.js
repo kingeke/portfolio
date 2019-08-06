@@ -1,4 +1,4 @@
-const link = `https://kingeke.github.io/portfolio`
+const link = ''
 
 const works = `${link}/img/works`
 const websites = `${works}/websites`

@@ -3,6 +3,7 @@ import CustomModal from './includes/CustomModal';
 import RecentWorksLayout from './includes/RecentWorksLayout';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
+import { AnimatedOnScroll } from 'react-animated-css-onscroll';
 
 export default function RecentWorks({ websites, graphics }) {
 
@@ -56,67 +57,73 @@ export default function RecentWorks({ websites, graphics }) {
             <CustomModal size="lg" item={item} show={show} handleClose={handleClose} />
             <div className="row p-sm-5 pt-5 pb-5">
                 <div className="col-12">
-                    <div className="text-center">
-                        <h1>Recent Works</h1>
-                        <h4>Websites</h4>
-                    </div>
+                    <AnimatedOnScroll animationIn="fadeInLeft">
+                        <div className="text-center">
+                            <h1>Recent Works</h1>
+                            <h4>Websites</h4>
+                        </div>
+                    </AnimatedOnScroll>
                     <div className="row">
                         <div className="col-12">
-                            <Carousel
-                                showDots
-                                swipeable
-
-                                responsive={websiteSettings}
-                                infinite={true}
-                                autoPlay={true}
-                                autoPlaySpeed={3000}
-                                keyBoardControl={true}
-                                customTransition="all .5s ease"
-                                containerClass="carousel-container"
-                                dotListClass="custom-dot-list-style dot-list"
-                                itemClass="carousel-item-padding-40-px p-2 my-auto"
-                            >
-                                {
-                                    websites.map((work, index) => {
-                                        return (
-                                            <RecentWorksLayout title={work.title} image={work.images[0]} link={work.link} key={index} handleShow={handleShow} timeline={work.timeline} index={index} />
-                                        )
-                                    })
-                                }
-                            </Carousel>
+                            <AnimatedOnScroll animationIn="fadeIn" animationInDelay={1000}>
+                                <Carousel
+                                    showDots
+                                    swipeable
+                                    responsive={websiteSettings}
+                                    infinite={true}
+                                    autoPlay={true}
+                                    autoPlaySpeed={3000}
+                                    keyBoardControl={true}
+                                    customTransition="all .5s ease"
+                                    containerClass="carousel-container"
+                                    dotListClass="custom-dot-list-style dot-list"
+                                    itemClass="carousel-item-padding-40-px p-2 my-auto"
+                                >
+                                    {
+                                        websites.map((work, index) => {
+                                            return (
+                                                <RecentWorksLayout title={work.title} image={work.images[0]} link={work.link} key={index} handleShow={handleShow} timeline={work.timeline} index={index} />
+                                            )
+                                        })
+                                    }
+                                </Carousel>
+                            </AnimatedOnScroll>
                         </div>
                     </div>
                     <div className="text-center mt-5">
-                        <h4>Graphics</h4>
+                        <AnimatedOnScroll animationIn="fadeInRight">
+                            <h4>Graphics</h4>
+                        </AnimatedOnScroll>
                     </div>
                     <div className="row">
                         <div className="col-12">
-
-                            <Carousel
-                                showDots
-                                swipeable
-                                responsive={graphicsSettings}
-                                infinite={true}
-                                autoPlay={true}
-                                autoPlaySpeed={3000}
-                                keyBoardControl={true}
-                                customTransition="all .5s ease"
-                                containerClass="carousel-container"
-                                dotListClass="custom-dot-list-style dot-list"
-                                itemClass="carousel-item-padding-40-px p-2 my-auto"
-                            >
-                                {
-                                    graphics.map((image, index) => {
-                                        return (
-                                            <div key={index}>
-                                                <a href={image} target="_blank" rel="noopener noreferrer">
-                                                    <img src={image} alt="graphics" className="img-fluid img-thumbnail" />
-                                                </a>
-                                            </div>
-                                        )
-                                    })
-                                }
-                            </Carousel>
+                            <AnimatedOnScroll animationIn="fadeIn" animationInDelay={1000}>
+                                <Carousel
+                                    showDots
+                                    swipeable
+                                    responsive={graphicsSettings}
+                                    infinite={true}
+                                    autoPlay={true}
+                                    autoPlaySpeed={3000}
+                                    keyBoardControl={true}
+                                    customTransition="all .5s ease"
+                                    containerClass="carousel-container"
+                                    dotListClass="custom-dot-list-style dot-list"
+                                    itemClass="carousel-item-padding-40-px p-2 my-auto"
+                                >
+                                    {
+                                        graphics.map((image, index) => {
+                                            return (
+                                                <div key={index}>
+                                                    <a href={image} target="_blank" rel="noopener noreferrer">
+                                                        <img src={image} alt="graphics" className="img-fluid img-thumbnail" />
+                                                    </a>
+                                                </div>
+                                            )
+                                        })
+                                    }
+                                </Carousel>
+                            </AnimatedOnScroll>
                         </div>
                     </div>
                 </div>

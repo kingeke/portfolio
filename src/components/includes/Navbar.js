@@ -5,9 +5,9 @@ import { Link } from "react-scroll";
 export default function Navbar({ handleNavBar }) {
     return (
         <nav className="side-nav">
-            <img src={avatar} alt="Avatar" className="avatar shadow" />
+            <img src={avatar} alt="Avatar" className="avatar shadow animated fadeIn delay-1s" />
             <ul>
-                <li>
+                <li className="animated fadeInLeft">
                     <Link
                         activeClass="active"
                         className="nav-links"
@@ -19,7 +19,7 @@ export default function Navbar({ handleNavBar }) {
                         Home
                     </Link>
                 </li>
-                <li>
+                <li className="animated fadeInRight">
                     <Link
                         activeClass="active"
                         className="nav-links"
@@ -32,7 +32,7 @@ export default function Navbar({ handleNavBar }) {
                         About Me
                     </Link>
                 </li>
-                <li>
+                <li className="animated fadeInLeft">
                     <Link
                         activeClass="active"
                         className="nav-links"
@@ -45,7 +45,7 @@ export default function Navbar({ handleNavBar }) {
                         Recent Works
                     </Link>
                 </li>
-                <li>
+                <li className="animated fadeInRight">
                     <Link
                         activeClass="active"
                         className="nav-links"
