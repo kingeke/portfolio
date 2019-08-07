@@ -12,11 +12,11 @@ export default function Contact() {
                         <h4>Interested in working with me? <Emoji symbol="😎" label="cool" /></h4>
                         <h4>Send an email or contact me on WhatsApp <Emoji symbol="😉" label="wink" /></h4>
                         <div className="row mt-4">
-                            <div className="col text-right">
-                                <h4><i className="fas fa-envelope"></i> <a href="mailto:chinonsoeke@gmail.com" className="text-white">chinonsoeke@gmail.com</a></h4>
+                            <div className="col text-sm-right">
+                                <h5><i className="fas fa-envelope"></i> <a href="mailto:chinonsoeke@gmail.com" className="text-white">chinonsoeke@gmail.com</a></h5>
                             </div>
-                            <div className="col text-left">
-                                <h4><i className="fas fa-phone"></i> +2347063944465</h4>
+                            <div className="col text-sm-left">
+                                <h5><i className="fas fa-phone fa-flip-horizontal"></i> +2347063944465</h5>
                             </div>
                         </div>
                         <h4>Remeber, you're awesome !!!</h4>

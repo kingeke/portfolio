@@ -4,6 +4,8 @@ const works = `${link}/img/works`
 const websites = `${works}/websites`
 const graphicsLink = `${works}/graphics`
 
+export const CV = `${link}/Chinonso Eke CV.pdf`
+
 export const avatar = `${link}/img/avatar.jpg`
 export const reactNative = `${link}/img/Icons/react-native.png`
 export const afterEffects = `${link}/img/Icons/after-effects.png`

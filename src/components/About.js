@@ -15,26 +15,31 @@ export default function About({ skills }) {
                         <h1>Skills</h1>
                     </div>
                     <div className="col-12">
-                        <div className="nav nav-tabs nav-fill">
+                        <ul className="nav nav-tabs nav-fill" role="tablist">
                             {
                                 skills.map((item, index) => {
                                     return (
-                                        <a className={`nav-item nav-link ${index === 0 ? 'active' : ''}`} key={index} data-toggle="tab" href={`#${item.name}`}>{item.name}</a>
+                                        <li className="nav-item" key={index}>
+                                            <a className={`nav-link ${index === 0 ? 'active' : ''}`} data-toggle="tab" href={`#${item.name}`}>{item.name}</a>
+                                        </li>
+                                    )
+                                })
+                            }
+                        </ul>
+
+                        <div className="tab-content">
+                            {
+                                skills.map((item, index) => {
+                                    return (
+                                        <div key={index} className={`tab-pane fade pt-5 pb-5 ${index === 0 ? 'show active' : ''}`} id={item.name} role="tabpanel">
+                                            <div className="row">
+                                                <SkillsLayout key={index} skills={item.skills} />
+                                            </div>
+                                        </div>
                                     )
                                 })
                             }
                         </div>
-                        {
-                            skills.map((item, index) => {
-                                return (
-                                    <div key={index} className={`tab-pane fade pt-5 pb-5 ${index === 0 ? 'show active' : ''}`} id={item.name} role="tabpanel">
-                                        <div className="row">
-                                            <SkillsLayout key={index} skills={item.skills} />
-                                        </div>
-                                    </div>
-                                )
-                            })
-                        }
                     </div>
                 </div>
             </AnimatedOnScroll>
