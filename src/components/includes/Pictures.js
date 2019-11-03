@@ -9,11 +9,24 @@ export const CV = `${link}/Chinonso Eke CV.pdf`
 export const avatar = `${link}/img/avatar.jpg`
 export const reactNative = `${link}/img/Icons/react-native.png`
 export const afterEffects = `${link}/img/Icons/after-effects.png`
+
 export const kainetix = [
     `${websites}/kainetix-landing-page.png`,
     `${websites}/kainetix-blog-page.png`,
     `${websites}/kainetix-events-page.png`,
     `${websites}/kainetix-gallery-page.png`
+]
+
+export const calendarApp = [
+    `${websites}/calendar-app-landing-page.png`,
+    `${websites}/calendar-app-create-appointment.png`,
+    `${websites}/calendar-app-import-appointments.png`,
+    `${websites}/calendar-app-login.png`,
+]
+
+export const perspective = [
+    `${websites}/perspective-landing-page.png`,
+    `${websites}/perspective-result-page.png`,
 ]
 
 export const yalla = [

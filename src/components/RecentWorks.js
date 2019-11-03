@@ -10,7 +10,7 @@ export default function RecentWorks({ websites, graphics }) {
     const websiteSettings = {
         desktop: {
             breakpoint: { max: 3000, min: 1024 },
-            items: 2,
+            items: 3,
             slidesToSlide: 2,
         },
         tablet: {
@@ -82,7 +82,7 @@ export default function RecentWorks({ websites, graphics }) {
                                     {
                                         websites.map((work, index) => {
                                             return (
-                                                <RecentWorksLayout title={work.title} image={work.images[0]} link={work.link} key={index} handleShow={handleShow} timeline={work.timeline} index={index} />
+                                                <RecentWorksLayout key={index} handleShow={handleShow} index={index} work={work} />
                                             )
                                         })
                                     }

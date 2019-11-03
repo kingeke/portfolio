@@ -3,62 +3,51 @@ import { avatar } from './Pictures';
 import { Link } from "react-scroll";
 
 export default function Navbar({ handleNavBar }) {
+
+    const links = [
+        {
+            title: 'Home',
+            to: 'home',
+            animation: 'Left'
+        },
+        {
+            title: 'About',
+            to: 'about',
+            animation: 'Right'
+        },
+        {
+            title: 'Recent Works',
+            to: 'recent-works',
+            animation: 'Left'
+        },
+        {
+            title: 'Contact',
+            to: 'contact',
+            animation: 'Right'
+        }
+    ]
+
     return (
         <nav className="side-nav">
             <img src={avatar} alt="Avatar" className="avatar shadow animated fadeIn delay-1s" />
             <ul>
-                <li className="animated fadeInLeft">
-                    <Link
-                        activeClass="active"
-                        className="nav-links"
-                        to="home"
-                        spy={true}
-                        smooth={true}
-                        duration={500}
-                        onClick={handleNavBar}>
-                        Home
-                    </Link>
-                </li>
-                <li className="animated fadeInRight">
-                    <Link
-                        activeClass="active"
-                        className="nav-links"
-                        to="about"
-                        spy={true}
-                        smooth={true}
-                        offset={10}
-                        duration={500}
-                        onClick={handleNavBar}>
-                        About Me
-                    </Link>
-                </li>
-                <li className="animated fadeInLeft">
-                    <Link
-                        activeClass="active"
-                        className="nav-links"
-                        to="recent-works"
-                        spy={true}
-                        smooth={true}
-                        offset={10}
-                        duration={500}
-                        onClick={handleNavBar}>
-                        Recent Works
-                    </Link>
-                </li>
-                <li className="animated fadeInRight">
-                    <Link
-                        activeClass="active"
-                        className="nav-links"
-                        to="contact"
-                        spy={true}
-                        smooth={true}
-                        offset={10}
-                        duration={500}
-                        onClick={handleNavBar}>
-                        Contact
-                    </Link>
-                </li>
+                {
+                    links.map((item, index) => (
+                        <li key={index} className={`animated fadeIn${item.animation}`}>
+                            <Link
+                                activeClass="active"
+                                className="nav-links"
+                                to={item.to}
+                                spy={true}
+                                smooth={true}
+                                duration={500}
+                                onClick={handleNavBar}>
+                                {item.title}
+                            </Link>
+                        </li>
+                    ))
+                }
             </ul>
-        </nav >
+        </nav>
     )
 }

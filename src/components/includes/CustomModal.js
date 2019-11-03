@@ -28,7 +28,14 @@ export default function CustomModal({ show, size, handleClose, item }) {
             </Modal.Body>
             <Modal.Footer>
                 <Button variant="secondary" onClick={handleClose}>Close </Button>
-                <a className="btn btn-primary" target="_blank" rel="noopener noreferrer" href={item.link}>Visit Site </a>
+                {
+                    item.gitHubLink &&
+                    <a className="btn btn-success" target="_blank" rel="noopener noreferrer" href={item.gitHubLink}>View GitHub</a>
+                }
+                {
+                    item.link &&
+                    <a className="btn btn-primary" target="_blank" rel="noopener noreferrer" href={item.link}>Visit Site </a>
+                }
             </Modal.Footer>
         </Modal>
     )
