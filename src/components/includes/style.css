@@ -302,3 +302,11 @@ nav ul li a:hover {
   background-position: center center;
   background-size: cover;
 }
+
+.social-links i {
+  transition: all ease 0.5s;
+}
+
+.social-links i:hover {
+  color: black !important;
+}

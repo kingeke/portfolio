@@ -7,7 +7,7 @@ export default function SkillsLayout({ skills }) {
                 skills.map((skill, index) => {
                     return (
 
-                        <div className="col-md-3 col-sm-4 col-6 pt-3 p-0 pb-3 text-center border" key={index}>
+                        <div className="col-md-3 col-sm-4 col-6 pt-3 p-0 pb-3 text-center border" key={index} title={skill.hoverTitle || skill.title}>
                             {
                                 skill.type === 'i' ?
                                     <i className={`skill ${skill.icon}`}></i> :

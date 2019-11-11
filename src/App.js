@@ -17,42 +17,50 @@ export default class App extends Component {
 					{
 						name: 'bootstrap',
 						type: 'i',
-						icon: 'devicon-bootstrap-plain-wordmark colored'
+						icon: 'devicon-bootstrap-plain-wordmark colored',
+						hoverTitle: 'Bootstrap'
 					},
 					{
 						name: 'css',
 						type: 'i',
-						icon: 'devicon-css3-plain-wordmark colored'
+						icon: 'devicon-css3-plain-wordmark colored',
+						hoverTitle: 'CSS'
 					},
 					{
 						name: 'html',
 						type: 'i',
-						icon: 'devicon-html5-plain-wordmark colored'
+						icon: 'devicon-html5-plain-wordmark colored',
+						hoverTitle: 'HTML'
 					},
 					{
 						name: 'javascript',
 						type: 'i',
-						icon: 'devicon-javascript-plain colored'
+						icon: 'devicon-javascript-plain colored',
+						hoverTitle: 'Javascript'
 					},
 					{
 						name: 'jquery',
 						type: 'i',
-						icon: 'devicon-jquery-plain-wordmark colored'
+						icon: 'devicon-jquery-plain-wordmark colored',
+						hoverTitle: 'Jquery'
 					},
 					{
 						name: 'react',
 						type: 'i',
-						icon: 'devicon-react-original-wordmark colored'
+						icon: 'devicon-react-original-wordmark colored',
+						hoverTitle: 'ReactJS'
 					},
 					{
 						name: 'reactNative',
 						type: 'img',
-						icon: reactNative
+						icon: reactNative,
+						hoverTitle: 'React Native'
 					},
 					{
 						name: 'vue',
 						type: 'i',
-						icon: 'devicon-vuejs-plain-wordmark colored'
+						icon: 'devicon-vuejs-plain-wordmark colored',
+						hoverTitle: 'VueJS'
 					}
 				]
 			},
@@ -62,22 +70,26 @@ export default class App extends Component {
 					{
 						name: 'laravel',
 						type: 'i',
-						icon: 'devicon-laravel-plain-wordmark colored'
+						icon: 'devicon-laravel-plain-wordmark colored',
+						hoverTitle: 'Laravel'
 					},
 					{
 						name: 'nodejs',
 						type: 'i',
-						icon: 'devicon-nodejs-plain-wordmark colored'
+						icon: 'devicon-nodejs-plain-wordmark colored',
+						hoverTitle: 'Node JS'
 					},
 					{
 						name: 'php',
 						type: 'i',
-						icon: 'devicon-php-plain colored'
+						icon: 'devicon-php-plain colored',
+						hoverTitle: 'PHP'
 					},
 					{
 						name: 'mysql',
 						type: 'i',
-						icon: 'devicon-mysql-plain-wordmark colored'
+						icon: 'devicon-mysql-plain-wordmark colored',
+						hoverTitle: 'MySQL'
 					}
 				]
 			},
@@ -88,13 +100,13 @@ export default class App extends Component {
 						name: 'illustrator',
 						type: 'i',
 						icon: 'devicon-illustrator-plain colored',
-						title: 'Adobe Illustrator'
+						title: 'Adobe Illustrator',
 					},
 					{
 						name: 'afterEffects',
 						type: 'img',
 						icon: afterEffects,
-						title: 'Adobe After Effects'
+						title: 'Adobe After Effects',
 					},
 					{
 						name: 'figma',
@@ -176,7 +188,7 @@ export default class App extends Component {
 				link: 'https://yallaexpress.com/'
 			}
 		],
-		graphics: graphics
+		graphics
 	}
 
 
