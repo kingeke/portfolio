@@ -173,7 +173,7 @@ export default class App extends Component {
 				title: 'Tecky Solutions',
 				type: 'website',
 				description: 'Tecky is aimed at connecting freelance creators in programming, photoshop, designing e.t.c. with clients looking for these creators to build a project.',
-				languages: 'Laravel, MySql, HTML, CSS, Bootstrap',
+				languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
 				timeline: '1 month',
 				images: tecky,
 				link: 'https://tecky.com.ng/'
@@ -182,7 +182,7 @@ export default class App extends Component {
 				title: 'Yalla! Express',
 				type: 'website',
 				description: 'Yalla! Express is licensed by the Nigerian Postal Service Courier Regulatory Department (“NIPOST CRD”), to provide courier services to customers in Nigeria. They offer same day pickup and delivery solutions to individual and corporate customers across Lagos, Nigeria.',
-				languages: 'React, Laravel, MySql, HTML, CSS, Bootstrap',
+				languages: 'React, Redux, Laravel, MySql, HTML, CSS, Bootstrap',
 				timeline: '2 months',
 				images: yalla,
 				link: 'https://yallaexpress.com/'
