@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from "react-scroll";
-import { AnimatedOnScroll } from 'react-animated-css-onscroll';
-import { CV } from './includes/Pictures';
+import { AnimatedOnScroll } from 'react-animated-css-onscroll'
 
 export default function Home({ handleNavBar }) {
     return (
