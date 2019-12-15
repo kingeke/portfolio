@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Navbar from './components/includes/Navbar';
-import { reactNative, afterEffects, kainetix, yalla, tecky, graphics, calendarApp, perspective } from './components/includes/Pictures';
+import { reactNative, afterEffects, kainetix, yalla, tecky, graphics, calendarApp, perspective, renWorldBank } from './components/includes/Pictures';
 import Home from './components/Home';
 import About from './components/About';
 import RecentWorks from './components/RecentWorks';
@@ -56,17 +56,17 @@ export default class App extends Component {
 						icon: reactNative,
 						hoverTitle: 'React Native'
 					},
-					{
-						name: 'vue',
-						type: 'i',
-						icon: 'devicon-vuejs-plain-wordmark colored',
-						hoverTitle: 'VueJS'
-					}
 				]
 			},
 			{
 				name: 'Back-End',
 				skills: [
+					{
+						name: 'php',
+						type: 'i',
+						icon: 'devicon-php-plain colored',
+						hoverTitle: 'PHP'
+					},
 					{
 						name: 'laravel',
 						type: 'i',
@@ -80,16 +80,16 @@ export default class App extends Component {
 						hoverTitle: 'Node JS'
 					},
 					{
-						name: 'php',
-						type: 'i',
-						icon: 'devicon-php-plain colored',
-						hoverTitle: 'PHP'
-					},
-					{
 						name: 'mysql',
 						type: 'i',
 						icon: 'devicon-mysql-plain-wordmark colored',
 						hoverTitle: 'MySQL'
+					},
+					{
+						name: 'mongodb',
+						type: 'i',
+						icon: 'devicon-mongodb-plain-wordmark',
+						hoverTitle: 'Mongo DB'
 					}
 				]
 			},
@@ -141,6 +141,16 @@ export default class App extends Component {
 			}
 		],
 		websites: [
+			{
+				title: 'RenWorld Bank',
+				type: 'website',
+				description: 'A banking application for users to create/close accounts, transfer or receive funds from other accounts.',
+				languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
+				timeline: '1 day',
+				images: renWorldBank,
+				link: 'https://renworld-bank.herokuapp.com',
+				gitHubLink: 'https://github.com/kingeke/renworld-bank-frontend',
+			},
 			{
 				title: 'Calendar App',
 				type: 'website',

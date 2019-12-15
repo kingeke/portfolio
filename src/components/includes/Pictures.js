@@ -42,6 +42,13 @@ export const tecky = [
     `${websites}/tecky-skills-page.png`
 ]
 
+export const renWorldBank = [
+    `${websites}/ren-world-bank-dashboard.png`,
+    `${websites}/ren-world-bank-transfer.png`,
+    `${websites}/ren-world-bank-account.png`,
+    `${websites}/ren-world-bank-accounts.png`,
+]
+
 export const graphics = [
     `${graphicsLink}/CEO-BC.png`,
     `${graphicsLink}/Azuri-Flyer.png`,
