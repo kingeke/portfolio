@@ -5,10 +5,12 @@ import Home from './components/Home';
 import About from './components/About';
 import RecentWorks from './components/RecentWorks';
 import Contact from './components/Contact';
+import Axios from 'axios';
 
 export default class App extends Component {
 
 	state = {
+		websiteVisitLink: 'https://api.tecky.com.ng/api/website-visit',
 		navbarActive: false,
 		skills: [
 			{
@@ -201,6 +203,15 @@ export default class App extends Component {
 		graphics
 	}
 
+	componentDidMount = () => {
+		Axios.get('https://geoip-db.com/json/')
+			.then((response) => {
+				Axios.post(this.state.websiteVisitLink, response.data)
+					.then(() => null)
+					.catch(() => null)
+			})
+			.catch(() => null)
+	}
 
 	handleNavBar = () => {
 		this.setState({
