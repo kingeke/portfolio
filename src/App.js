@@ -10,7 +10,7 @@ import Axios from 'axios';
 export default class App extends Component {
 
 	state = {
-		websiteVisitLink: 'http://127.0.0.1:8000/api/website-visit',
+		websiteVisitLink: 'https://api.tecky.com.ng/api/website-visit',
 		navbarActive: false,
 		skills: [
 			{
