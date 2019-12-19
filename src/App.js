@@ -10,7 +10,7 @@ import Axios from 'axios';
 export default class App extends Component {
 
 	state = {
-		websiteVisitLink: 'https://api.tecky.com.ng/api/website-visit',
+		websiteVisitLink: 'http://127.0.0.1:8000/api/website-visit',
 		navbarActive: false,
 		skills: [
 			{
@@ -206,9 +206,18 @@ export default class App extends Component {
 	componentDidMount = () => {
 		Axios.get('https://geoip-db.com/json/')
 			.then((response) => {
-				Axios.post(this.state.websiteVisitLink, response.data)
-					.then(() => null)
-					.catch(() => null)
+
+				var ip = response.data.IPv4
+
+				var visitor = sessionStorage.getItem('visitor')
+
+				if (!visitor || visitor !== ip) {
+					Axios.post(this.state.websiteVisitLink, response.data)
+						.then(() => {
+							sessionStorage.setItem("visitor", ip)
+						})
+						.catch(() => null)
+				}
 			})
 			.catch(() => null)
 	}
