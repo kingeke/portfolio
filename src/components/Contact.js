@@ -19,7 +19,7 @@ export default function Contact() {
                                 <h5><i className="fas fa-phone fa-flip-horizontal"></i> +2347063944465</h5>
                             </div>
                         </div>
-                        <h4>Remeber, you're awesome !!!</h4>
+                        <h4>Remember, you're awesome !!!</h4>
                     </div>
                 </div>
             </AnimatedOnScroll>
