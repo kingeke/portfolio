@@ -49,6 +49,13 @@ export const renWorldBank = [
     `${websites}/ren-world-bank-accounts.png`,
 ]
 
+export const acerDevelopment = [
+    `${websites}/acer-dev-home.png`,
+    `${websites}/acer-dev-about.png`,
+    `${websites}/acer-dev-directors.png`,
+    `${websites}/acer-dev-admin.png`,
+]
+
 export const graphics = [
     `${graphicsLink}/CEO-BC.png`,
     `${graphicsLink}/Azuri-Flyer.png`,
