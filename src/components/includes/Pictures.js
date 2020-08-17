@@ -9,6 +9,7 @@ export const CV = `${link}/Chinonso Eke CV.pdf`
 export const avatar = `${link}/img/avatar.jpg`
 export const reactNative = `${link}/img/Icons/react-native.png`
 export const afterEffects = `${link}/img/Icons/after-effects.png`
+export const graphql = `${link}/img/Icons/graphql.png`
 
 export const kainetix = [
     `${websites}/kainetix-landing-page.png`,

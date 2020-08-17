@@ -1,43 +1,61 @@
-import { afterEffects, reactNative, renWorldBank, calendarApp, perspective, kainetix, tecky, yalla, acerDevelopment, readingList } from "../components/includes/Pictures";
+import {
+    afterEffects,
+    reactNative,
+    renWorldBank,
+    calendarApp,
+    perspective,
+    kainetix,
+    tecky,
+    yalla,
+    acerDevelopment,
+    readingList,
+    graphql
+} from "../components/includes/Pictures";
 
 export const skills = [
     {
         name: 'Front-End',
         skills: [
             {
+                name: 'angular',
+                type: 'i',
+                icon: 'devicon-angularjs-plain',
+                hoverTitle: 'Angular'
+            },
+            {
                 name: 'bootstrap',
                 type: 'i',
-                icon: 'devicon-bootstrap-plain-wordmark colored',
+                icon: 'devicon-bootstrap-plain-wordmark',
                 hoverTitle: 'Bootstrap'
             },
             {
                 name: 'css',
                 type: 'i',
-                icon: 'devicon-css3-plain-wordmark colored',
+                icon: 'devicon-css3-plain-wordmark',
                 hoverTitle: 'CSS'
             },
             {
                 name: 'html',
                 type: 'i',
-                icon: 'devicon-html5-plain-wordmark colored',
+                icon: 'devicon-html5-plain-wordmark',
                 hoverTitle: 'HTML'
             },
             {
                 name: 'javascript',
                 type: 'i',
-                icon: 'devicon-javascript-plain colored',
+                icon: 'devicon-javascript-plain',
                 hoverTitle: 'Javascript'
             },
             {
                 name: 'jquery',
                 type: 'i',
-                icon: 'devicon-jquery-plain-wordmark colored',
+                icon: 'devicon-jquery-plain-wordmark',
                 hoverTitle: 'Jquery'
             },
             {
                 name: 'react',
                 type: 'i',
-                icon: 'devicon-react-original-wordmark colored',
+                icon: 'devicon-react-original-wordmark',
                 hoverTitle: 'ReactJS'
             },
             {
@@ -54,25 +72,25 @@ export const skills = [
             {
                 name: 'php',
                 type: 'i',
-                icon: 'devicon-php-plain colored',
+                icon: 'devicon-php-plain',
                 hoverTitle: 'PHP'
             },
             {
                 name: 'laravel',
                 type: 'i',
-                icon: 'devicon-laravel-plain-wordmark colored',
+                icon: 'devicon-laravel-plain-wordmark',
                 hoverTitle: 'Laravel'
             },
             {
                 name: 'nodejs',
                 type: 'i',
-                icon: 'devicon-nodejs-plain-wordmark colored',
+                icon: 'devicon-nodejs-plain-wordmark',
                 hoverTitle: 'Node JS'
             },
             {
                 name: 'mysql',
                 type: 'i',
-                icon: 'devicon-mysql-plain-wordmark colored',
+                icon: 'devicon-mysql-plain-wordmark',
                 hoverTitle: 'MySQL'
             },
             {
@@ -80,7 +98,14 @@ export const skills = [
                 type: 'i',
                 icon: 'devicon-mongodb-plain-wordmark',
                 hoverTitle: 'Mongo DB'
-            }
+            },
+            {
+                name: 'graphql',
+                type: 'img',
+                icon: graphql,
+                title: 'GraphQL'
+            },
+
         ]
     },
     {
@@ -89,7 +114,7 @@ export const skills = [
             {
                 name: 'illustrator',
                 type: 'i',
-                icon: 'devicon-illustrator-plain colored',
+                icon: 'devicon-illustrator-plain',
                 title: 'Adobe Illustrator',
             },
             {
