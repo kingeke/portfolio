@@ -56,6 +56,12 @@ export const acerDevelopment = [
     `${websites}/acer-dev-admin.png`,
 ]
 
+export const readingList = [
+    `${websites}/reading-list-home.png`,
+    `${websites}/reading-list-create-book.png`,
+    `${websites}/reading-list-create-author.png`,
+]
+
 export const graphics = [
     `${graphicsLink}/CEO-BC.png`,
     `${graphicsLink}/Azuri-Flyer.png`,

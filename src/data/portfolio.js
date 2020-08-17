@@ -1,4 +1,4 @@
-import { afterEffects, reactNative, renWorldBank, calendarApp, perspective, kainetix, tecky, yalla, acerDevelopment } from "../components/includes/Pictures";
+import { afterEffects, reactNative, renWorldBank, calendarApp, perspective, kainetix, tecky, yalla, acerDevelopment, readingList } from "../components/includes/Pictures";
 
 export const skills = [
     {
@@ -132,6 +132,16 @@ export const skills = [
 ]
 
 export const websites = [
+    {
+        title: 'Reading List',
+        type: 'website',
+        description: 'A reading list application to create a book or an author, the major aspect of this project is to showcase my graphql skills.',
+        languages: 'MongoDB, GraphQL, NodeJS, React, HTML, CSS, Bootstrap',
+        timeline: '1 week',
+        images: readingList,
+        link: 'https://reading-list-graphql-frontend.herokuapp.com/',
+        gitHubLink: 'https://github.com/kingeke/books-graphql-node-react-app'
+    },
     {
         title: 'Acer Development Company',
         type: 'website',
