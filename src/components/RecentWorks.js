@@ -60,11 +60,19 @@ export default function RecentWorks({ websites, graphics }) {
                     <AnimatedOnScroll animationIn="fadeInLeft">
                         <div className="text-center">
                             <h1>Recent Works</h1>
-                            <h4>Websites</h4>
                         </div>
                     </AnimatedOnScroll>
                     <div className="row">
-                        <div className="col-12">
+                        {
+                            websites.map((work, index) => {
+                                return (
+                                    <div className="col-lg-4 col-md-6" key={index} >
+                                        <RecentWorksLayout handleShow={handleShow} index={index} work={work} />
+                                    </div>
+                                )
+                            })
+                        }
+                        {/* <div className="col-12">
                             <AnimatedOnScroll animationIn="fadeIn" animationInDelay={1000}>
                                 <Carousel
                                     showDots
@@ -88,9 +96,9 @@ export default function RecentWorks({ websites, graphics }) {
                                     }
                                 </Carousel>
                             </AnimatedOnScroll>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="text-center mt-5">
+                    {/* <div className="text-center mt-5">
                         <AnimatedOnScroll animationIn="fadeInRight">
                             <h4>Graphics</h4>
                         </AnimatedOnScroll>
@@ -125,7 +133,7 @@ export default function RecentWorks({ websites, graphics }) {
                                 </Carousel>
                             </AnimatedOnScroll>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

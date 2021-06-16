@@ -108,29 +108,29 @@ export const skills = [
 
         ]
     },
-    {
-        name: 'Graphics',
-        skills: [
-            {
-                name: 'illustrator',
-                type: 'i',
-                icon: 'devicon-illustrator-plain',
-                title: 'Adobe Illustrator',
-            },
-            {
-                name: 'afterEffects',
-                type: 'img',
-                icon: afterEffects,
-                title: 'Adobe After Effects',
-            },
-            {
-                name: 'figma',
-                type: 'i',
-                icon: 'fab fa-figma',
-                title: 'Figma'
-            }
-        ]
-    },
+    // {
+    //     name: 'Graphics',
+    //     skills: [
+    //         {
+    //             name: 'illustrator',
+    //             type: 'i',
+    //             icon: 'devicon-illustrator-plain',
+    //             title: 'Adobe Illustrator',
+    //         },
+    //         {
+    //             name: 'afterEffects',
+    //             type: 'img',
+    //             icon: afterEffects,
+    //             title: 'Adobe After Effects',
+    //         },
+    //         {
+    //             name: 'figma',
+    //             type: 'i',
+    //             icon: 'fab fa-figma',
+    //             title: 'Figma'
+    //         }
+    //     ]
+    // },
     {
         name: 'Others',
         skills: [
