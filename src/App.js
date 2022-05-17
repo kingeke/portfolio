@@ -11,7 +11,7 @@ import { skills, websites } from './data/portfolio';
 export default class App extends Component {
 
 	state = {
-		websiteVisitLink: 'https://api.tecky.com.ng/api/website-visit',
+		websiteVisitLink: 'https://tecky-backend.herokuapp.com//api/website-visit',
 		navbarActive: false,
 		skills,
 		websites,

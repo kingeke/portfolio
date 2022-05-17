@@ -221,7 +221,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
         timeline: '1 month',
         images: tecky,
-        link: 'https://tecky.com.ng/'
+        link: 'https://tecky-frontend.herokuapp.com/'
     },
     {
         title: 'Yalla! Express',
@@ -230,6 +230,6 @@ export const websites = [
         languages: 'React, Redux, Laravel, MySql, HTML, CSS, Bootstrap',
         timeline: '2 months',
         images: yalla,
-        link: 'https://yallaexpress.com/'
+        link: 'https://yallaexpress.herokuapp.com/'
     }
 ]
