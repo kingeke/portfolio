@@ -9,7 +9,7 @@ export default function CustomModal({ show, size, handleClose, item }) {
             </Modal.Header>
             <Modal.Body>
                 <p>{item.description}</p>
-                <p>Languages Used: {item.languages}</p>
+                <p>Tech Stack: {item.languages}</p>
                 <p>Timeline: {item.timeline}</p>
                 <p>Pictures:</p>
                 <Row>
