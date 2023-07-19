@@ -11,7 +11,7 @@ import { skills, websites } from './data/portfolio';
 export default function App() {
 
     const [state, setState] = useState({
-        websiteVisitLink: 'https://hooks.slack.com/services/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',
+        websiteVisitLink: 'https://slack.com/api/chat.postMessage',
         navbarActive: false,
         skills,
         websites,
@@ -26,10 +26,10 @@ export default function App() {
 
     const logVisit = async () => {
 
-        if (window.location.href.includes("localhost") || window.location.href.includes("127.0.0.1")) {
+        // if (window.location.href.includes("localhost") || window.location.href.includes("127.0.0.1")) {
 
-            return;
-        }
+        //     return;
+        // }
 
         try {
 
@@ -77,6 +77,7 @@ export default function App() {
                     ];
 
                     let payload = {
+                        "channel": "website-visits",
                         "blocks": [
                             {
                                 "type": "header",
@@ -97,7 +98,12 @@ export default function App() {
                         ]
                     };
 
-                    await Axios.post(state.websiteVisitLink, payload);
+                    await Axios.post(state.websiteVisitLink, payload, {
+                        headers: {
+                            "Content-Type": "application/json",
+                            "Authorization": "Bearer xoxb-5603878313235-5604035890978-hRySlCGUsZaSKStMWEhziaQk"
+                        }
+                    });
                 }
             }
 
