@@ -11,7 +11,7 @@ import { skills, websites } from './data/portfolio';
 export default function App() {
 
     const [state, setState] = useState({
-        websiteVisitLink: 'https://slack.com/api/chat.postMessage',
+        websiteVisitLink: 'https://tecky-backend.herokuapp.com/api/website-visit',
         navbarActive: false,
         skills,
         websites,
@@ -98,12 +98,7 @@ export default function App() {
                         ]
                     };
 
-                    await Axios.post(state.websiteVisitLink, payload, {
-                        headers: {
-                            "Content-Type": "application/json",
-                            "Authorization": "Bearer xoxb-5603878313235-5604035890978-hRySlCGUsZaSKStMWEhziaQk"
-                        }
-                    });
+                    await Axios.post(state.websiteVisitLink, payload);
                 }
             }
 
