@@ -26,10 +26,10 @@ export default function App() {
 
     const logVisit = async () => {
 
-        // if (window.location.href.includes("localhost") || window.location.href.includes("127.0.0.1")) {
+        if (window.location.href.includes("localhost") || window.location.href.includes("127.0.0.1")) {
 
-        //     return;
-        // }
+            return;
+        }
 
         try {
 
