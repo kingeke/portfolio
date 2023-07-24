@@ -202,25 +202,6 @@ export const skills = [
 
 export const websites = [
     {
-        title: 'Reading List',
-        type: 'website',
-        description: 'A reading list application to create a book or an author, the major aspect of this project is to showcase my graphql skills.',
-        languages: 'MongoDB, GraphQL, NodeJS, React, HTML, CSS, Bootstrap',
-        timeline: '1 week',
-        images: readingList,
-        link: 'https://reading-list-graphql-frontend.herokuapp.com/',
-        gitHubLink: 'https://github.com/kingeke/books-graphql-node-react-app'
-    },
-    {
-        title: 'Acer Development Company',
-        type: 'website',
-        description: 'A real estate company established to deliver a higher standard of living driven by better quality designs and valuable features',
-        languages: 'Laravel, MySql, HTML, CSS, Bootstrap',
-        timeline: '2 weeks',
-        images: acerDevelopment,
-        link: 'https://acer-development.herokuapp.com/'
-    },
-    {
         title: 'RenWorld Bank',
         type: 'website',
         description: 'A banking application for users to create/close accounts, transfer or receive funds from other accounts.',
@@ -229,16 +210,6 @@ export const websites = [
         images: renWorldBank,
         link: 'https://renworld-bank.herokuapp.com',
         gitHubLink: 'https://github.com/kingeke/renworld-bank-frontend',
-    },
-    {
-        title: 'Calendar App',
-        type: 'website',
-        description: 'A calendar application to manage a users appointments',
-        languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
-        timeline: '4 days',
-        images: calendarApp,
-        link: 'https://calendar-appointments.herokuapp.com',
-        gitHubLink: 'https://github.com/kingeke/Calendar-App'
     },
     {
         title: 'Perspective MBTI',
@@ -276,5 +247,34 @@ export const websites = [
         timeline: '2 months',
         images: yalla,
         link: 'https://yallaexpress.herokuapp.com/'
-    }
+    },
+    {
+        title: 'Reading List',
+        type: 'website',
+        description: 'A reading list application to create a book or an author, the major aspect of this project is to showcase my graphql skills.',
+        languages: 'MongoDB, GraphQL, NodeJS, React, HTML, CSS, Bootstrap',
+        timeline: '1 week',
+        images: readingList,
+        link: 'https://reading-list-graphql-frontend.herokuapp.com/',
+        gitHubLink: 'https://github.com/kingeke/books-graphql-node-react-app'
+    },
+    {
+        title: 'Acer Development Company',
+        type: 'website',
+        description: 'A real estate company established to deliver a higher standard of living driven by better quality designs and valuable features',
+        languages: 'Laravel, MySql, HTML, CSS, Bootstrap',
+        timeline: '2 weeks',
+        images: acerDevelopment,
+        link: 'https://acer-development.herokuapp.com/'
+    },
+    {
+        title: 'Calendar App',
+        type: 'website',
+        description: 'A calendar application to manage a users appointments',
+        languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
+        timeline: '4 days',
+        images: calendarApp,
+        link: 'https://calendar-appointments.herokuapp.com',
+        gitHubLink: 'https://github.com/kingeke/Calendar-App'
+    },
 ];
