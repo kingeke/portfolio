@@ -29,7 +29,7 @@ export default function Navbar({ handleNavBar }) {
 
     return (
         <nav className="side-nav">
-            <img src={avatar} alt="Avatar" className="avatar shadow animated fadeIn delay-1s" />
+            <img src={avatar} width="100%" alt="Avatar" className="avatar shadow animated fadeIn delay-1s" />
             <ul>
                 {
                     links.map((item, index) => (

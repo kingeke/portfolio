@@ -208,7 +208,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
         timeline: '1 day',
         images: renWorldBank,
-        link: 'https://renworld-bank.herokuapp.com',
+        link: 'https://renworld-bank-frontend.vercel.app/',
         gitHubLink: 'https://github.com/kingeke/renworld-bank-frontend',
     },
     {
@@ -218,7 +218,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
         timeline: '2 days',
         images: perspective,
-        link: 'https://perspective-mbti-test.herokuapp.com/',
+        link: 'https://perspective-mbti-test.vercel.app/',
         gitHubLink: 'https://github.com/kingeke/Perspective-MBTI-Test'
     },
     {
@@ -228,7 +228,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap',
         timeline: '2 months',
         images: kainetix,
-        link: 'http://kainetix-sports.herokuapp.com'
+        link: 'https://kainetix-sports.vercel.app/'
     },
     {
         title: 'Tecky Solutions',
@@ -237,7 +237,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
         timeline: '1 month',
         images: tecky,
-        link: 'https://tecky-frontend.herokuapp.com/'
+        link: 'https://tecky-frontend.vercel.app/'
     },
     {
         title: 'Yalla! Express',
@@ -246,17 +246,7 @@ export const websites = [
         languages: 'React, Redux, Laravel, MySql, HTML, CSS, Bootstrap',
         timeline: '2 months',
         images: yalla,
-        link: 'https://yallaexpress.herokuapp.com/'
-    },
-    {
-        title: 'Reading List',
-        type: 'website',
-        description: 'A reading list application to create a book or an author, the major aspect of this project is to showcase my graphql skills.',
-        languages: 'MongoDB, GraphQL, NodeJS, React, HTML, CSS, Bootstrap',
-        timeline: '1 week',
-        images: readingList,
-        link: 'https://reading-list-graphql-frontend.herokuapp.com/',
-        gitHubLink: 'https://github.com/kingeke/books-graphql-node-react-app'
+        link: 'https://yallaexpress.vercel.app/'
     },
     {
         title: 'Acer Development Company',
@@ -265,7 +255,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap',
         timeline: '2 weeks',
         images: acerDevelopment,
-        link: 'https://acer-development.herokuapp.com/'
+        link: 'https://acer-development.vercel.app/'
     },
     {
         title: 'Calendar App',
@@ -274,7 +264,7 @@ export const websites = [
         languages: 'Laravel, MySql, HTML, CSS, Bootstrap, React, Redux',
         timeline: '4 days',
         images: calendarApp,
-        link: 'https://calendar-appointments.herokuapp.com',
+        link: 'https://calendar-app-indol.vercel.app/',
         gitHubLink: 'https://github.com/kingeke/Calendar-App'
     },
 ];

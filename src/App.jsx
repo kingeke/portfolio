@@ -11,7 +11,7 @@ import { skills, websites } from './data/portfolio';
 export default function App() {
 
     const [state, setState] = useState({
-        websiteVisitLink: 'https://tecky-backend.herokuapp.com/api/website-visit',
+        websiteVisitLink: 'https://tecky-backend.vercel.app/backend/website-visit',
         navbarActive: false,
         skills,
         websites,
