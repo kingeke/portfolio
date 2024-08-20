@@ -20,9 +20,9 @@ export default function Home({ handleNavBar }) {
                         <br />
                         <h4>Looking forward to working with you !</h4>
                         <Link className="nav-links btn btn-outline-info mt-3" to="about" spy={true} offset={10} duration={500} smooth={true}>About Me</Link>
-                        <a href='https://drive.google.com/file/d/1w-UHkWtes-zwxxQ958zBirBNlNJdbIjI/view' target="_blank" rel="noopener noreferrer" className="btn btn-success mt-3 ms-3"><i className="fas fa-download"></i> Download CV</a>
+                        <a href='https://drive.google.com/file/d/1w-UHkWtes-zwxxQ958zBirBNlNJdbIjI/view' target="_blank" rel="noopener noreferrer" className="btn btn-success mt-3 ms-3">View My CV</a>
                         <div className="mt-4 social-links">
-                            <a href="https://linkedin.com/in/chinonso-eke-520753145/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
+                            <a href="https://www.linkedin.com/in/chinonso-eke/" title="LinkedIn" target="_blank" rel="noopener noreferrer">
                                 <i className="fab fa-linkedin fa-3x text-white"></i>
                             </a>
                             <a href="https://github.com/kingeke" className="ms-3" title="GitHub" target="_blank" rel="noopener noreferrer">

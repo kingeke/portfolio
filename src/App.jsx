@@ -13,9 +13,6 @@ export default function App() {
     const [state, setState] = useState({
         websiteVisitLink: 'https://tecky-backend.vercel.app/backend/website-visit',
         navbarActive: false,
-        skills,
-        websites,
-        graphics
     });
 
     useEffect(() => {
@@ -120,8 +117,8 @@ export default function App() {
             <Navbar handleNavBar={handleNavBar} />
             <div className="main-content">
                 <Home handleNavBar={handleNavBar} />
-                <About skills={state.skills} />
-                <RecentWorks websites={state.websites} graphics={state.graphics} />
+                <About skills={skills} />
+                <RecentWorks websites={websites} graphics={graphics} />
                 <Contact />
             </div>
         </div>

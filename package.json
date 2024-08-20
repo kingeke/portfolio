@@ -29,7 +29,6 @@
 		"gh-pages": "^5.0.0",
 		"react-animated-css-onscroll": "^1.2.1",
 		"react-bootstrap": "^2.8.0",
-		"react-multi-carousel": "^2.8.4",
 		"react-scroll": "^1.8.9",
 		"vite": "^4.4.0"
 	}

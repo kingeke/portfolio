@@ -4,7 +4,7 @@ export default function SkillsLayout({ skills }) {
     return (
         <Fragment>
             {
-                skills.map((skill, index) => {
+                skills.sort((a, b) => a.name.localeCompare(b.name)).map((skill, index) => {
                     return (
 
                         <div

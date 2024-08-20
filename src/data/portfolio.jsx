@@ -78,6 +78,11 @@ export const skills = [
                 type: 'i',
                 icon: 'devicon-figma-plain',
             },
+            {
+                name: 'Typescript',
+                type: 'i',
+                icon: 'devicon-typescript-plain',
+            },
         ]
     },
     {
@@ -92,8 +97,7 @@ export const skills = [
             {
                 name: 'Laravel',
                 type: 'i',
-                icon: 'devicon-laravel-plain-wordmark',
-                hideName: true
+                icon: 'devicon-laravel-original',
             },
             {
                 name: 'Node JS',
@@ -113,11 +117,23 @@ export const skills = [
                 icon: 'devicon-graphql-plain-wordmark',
                 hideName: true
             },
+            {
+                name: 'Redis',
+                type: 'i',
+                icon: 'devicon-redis-plain-wordmark',
+                hideName: true
+            },
         ]
     },
     {
         name: 'Cloud',
         skills: [
+            {
+                name: 'Bitbucket',
+                type: 'i',
+                icon: 'devicon-bitbucket-original-wordmark',
+                hideName: true
+            },
             {
                 name: 'Docker',
                 type: 'i',
@@ -143,9 +159,9 @@ export const skills = [
                 hideName: true
             },
             {
-                name: 'Git',
+                name: 'Github',
                 type: 'i',
-                icon: 'devicon-git-plain-wordmark',
+                icon: 'devicon-github-original-wordmark',
                 hideName: true
             },
         ]
@@ -165,10 +181,16 @@ export const skills = [
                 icon: 'devicon-mongodb-plain-wordmark',
                 hideName: true
             },
+            {
+                name: 'PostgresSQL',
+                type: 'i',
+                icon: 'devicon-postgresql-plain-wordmark',
+                hideName: true
+            },
         ]
     },
     {
-        name: 'Others',
+        name: 'Testing',
         skills: [
             {
                 name: 'Jest',
@@ -176,9 +198,26 @@ export const skills = [
                 icon: 'devicon-jest-plain',
             },
             {
+                name: 'Cypress',
+                type: 'i',
+                icon: 'devicon-cypressio-plain-wordmark',
+                hideName: true,
+            },
+        ]
+    },
+    {
+        name: 'Others',
+        skills: [
+            {
                 name: 'Jira',
                 type: 'i',
                 icon: 'devicon-jira-plain-wordmark',
+                hideName: true
+            },
+            {
+                name: 'Confluence',
+                type: 'i',
+                icon: 'devicon-confluence-plain-wordmark',
                 hideName: true
             },
             {
@@ -195,6 +234,16 @@ export const skills = [
                 name: 'Excel',
                 type: 'i',
                 icon: 'fas fa-file-excel',
+            },
+            {
+                name: 'Vercel',
+                type: 'i',
+                icon: 'devicon-vercel-original',
+            },
+            {
+                name: 'ViteJS',
+                type: 'i',
+                icon: 'devicon-vitejs-plain',
             }
         ]
     }
