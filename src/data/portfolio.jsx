@@ -254,7 +254,7 @@ export const websites = [
     {
         title: 'Letschipin',
         type: 'website',
-        description: 'A contribution platform for adventures, parties, outings, send forths and all you can think of within friends, helps collate funds using a simple link.',
+        description: 'A contribution platform for adventures, parties, outings, send forths and all you can think of within friends, helps collate funds using a simple contribution link.',
         languages: 'Laravel, MySql, HTML, SCSS, MaterialUI, React, InertiaJS, Payments API',
         timeline: '1 month',
         images: letschipin,
