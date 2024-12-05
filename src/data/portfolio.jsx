@@ -2,6 +2,7 @@ import {
     acerDevelopment,
     calendarApp,
     kainetix,
+    letschipin,
     perspective,
     readingList,
     renWorldBank,
@@ -250,6 +251,15 @@ export const skills = [
 ];
 
 export const websites = [
+    {
+        title: 'Letschipin',
+        type: 'website',
+        description: 'A contribution platform for adventures, parties, outings, send forths and all you can think of within friends, helps collate funds using a simple link.',
+        languages: 'Laravel, MySql, HTML, SCSS, MaterialUI, React, InertiaJS, Payments API',
+        timeline: '1 month',
+        images: letschipin,
+        link: 'https://letschipin.vercel.app/'
+    },
     {
         title: 'RenWorld Bank',
         type: 'website',

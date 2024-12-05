@@ -63,6 +63,15 @@ export const readingList = [
     `${websites}/reading-list-create-author.png`,
 ]
 
+export const letschipin = [
+    `${websites}/letschipin-landing-page.png`,
+    `${websites}/letschipin-about.png`,
+    `${websites}/letschipin-plans.png`,
+    `${websites}/letschipin-signup.png`,
+    `${websites}/letschipin-dashboard.png`,
+    `${websites}/letschipin-contribution-page.png`,
+]
+
 export const graphics = [
     `${graphicsLink}/CEO-BC.png`,
     `${graphicsLink}/Azuri-Flyer.png`,
