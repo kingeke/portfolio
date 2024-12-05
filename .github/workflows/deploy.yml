@@ -14,7 +14,4 @@ jobs:
         run: npm install
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./build # Adjust this to your build output directory
+        run: npx gh-pages -d build --git git
