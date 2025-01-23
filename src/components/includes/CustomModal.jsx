@@ -5,7 +5,7 @@ export default function CustomModal({ show, size, handleClose, item }) {
     return (
         <Modal size={size} show={show} onHide={handleClose} animation scrollable>
             <Modal.Header closeButton>
-                <Modal.Title>{item.title}</Modal.Title>
+                <Modal.Title className='text-capitalize'>{item.title} ({item.type})</Modal.Title>
             </Modal.Header>
             <Modal.Body>
                 <p>{item.description}</p>

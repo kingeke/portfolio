@@ -72,6 +72,18 @@ export const letschipin = [
     `${websites}/letschipin-contribution-page.png`,
 ]
 
+export const newsAggregator = [
+    `${websites}/news-aggregator-dashboard.png`,
+    `${websites}/news-aggregator-register.png`,
+    `${websites}/news-aggregator-login.png`,
+    `${websites}/news-aggregator-profile.png`,
+]
+
+export const soarTask = [
+    `${websites}/soar-task-dashboard.png`,
+    `${websites}/soar-task-settings.png`,
+]
+
 export const graphics = [
     `${graphicsLink}/CEO-BC.png`,
     `${graphicsLink}/Azuri-Flyer.png`,

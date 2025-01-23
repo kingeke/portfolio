@@ -4,10 +4,11 @@ import {
     kainetix,
     letschipin,
     perspective,
-    readingList,
+    newsAggregator,
     renWorldBank,
     tecky,
-    yalla
+    yalla,
+    soarTask
 } from "../components/includes/Pictures";
 
 export const skills = [
@@ -259,6 +260,35 @@ export const websites = [
         timeline: '1 month',
         images: letschipin,
         link: 'https://letschipin.vercel.app/'
+    },
+    {
+        title: 'Soar Task',
+        type: 'UI',
+        description: 'A non-functional dashboard UI mockup of a financial service application, features includes, cards, recent transactions, activities, expense statistics and much more',
+        timeline: '3 days',
+        images: soarTask,
+        link: 'https://soar-task-lovat.vercel.app/',
+        gitHubLink: 'https://github.com/kingeke/soar-task'
+    },
+    {
+        title: 'News Aggregator',
+        type: 'website',
+        description: `News aggregator is a Laravel application mixed with Inertia JS and React JS. It allows users to; Authenticate, register a profile, handle password resets, search and filter news articles by keyword, author, category, source and publication date.
+
+        Customize a personalized news feed just for their profile.
+
+        The application aggregates news data from multiple APIs, stores them in a database and serves them to users. The data sources used are as follows;
+
+        - News API Service
+        - New York Times API Service
+        - Mediastack API Service.
+
+        An API Key is required from at least one news source to be able to use the application properly, but don't worry the system would present you a UI to get that sorted ASAP.`,
+        languages: 'Laravel, MySql, HTML, SCSS, MaterialUI, React, InertiaJS',
+        timeline: '3 days',
+        images: newsAggregator,
+        link: 'https://news-aggregator-seven-ashen.vercel.app/',
+        gitHubLink: 'https://github.com/kingeke/news-aggregator'
     },
     {
         title: 'RenWorld Bank',
