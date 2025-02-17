@@ -265,6 +265,7 @@ export const websites = [
         title: 'Soar Task',
         type: 'UI',
         description: 'A non-functional dashboard UI mockup of a financial service application, features includes, cards, recent transactions, activities, expense statistics and much more',
+        languages: 'React, Redux, Axios, MaterialUI, SASS',
         timeline: '3 days',
         images: soarTask,
         link: 'https://soar-task-lovat.vercel.app/',
