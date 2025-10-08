@@ -206,6 +206,11 @@ export const skills = [
 				icon: "devicon-grafana-plain-wordmark",
 				hideName: true,
 			},
+			{
+				name: "Vercel",
+				type: "i",
+				icon: "devicon-vercel-original",
+			},
 		],
 	},
 	{
@@ -281,11 +286,6 @@ export const skills = [
 				name: "Excel",
 				type: "i",
 				icon: "fas fa-file-excel",
-			},
-			{
-				name: "Vercel",
-				type: "i",
-				icon: "devicon-vercel-original",
 			},
 			{
 				name: "ViteJS",
