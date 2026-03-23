@@ -96,6 +96,11 @@ export const skills = [
 				type: "i",
 				icon: "devicon-flutter-plain",
 			},
+			{
+				name: "ViteJS",
+				type: "i",
+				icon: "devicon-vitejs-plain",
+			},
 		],
 	},
 	{
@@ -211,6 +216,12 @@ export const skills = [
 				type: "i",
 				icon: "devicon-vercel-original",
 			},
+			{
+				name: "Google Cloud",
+				type: "i",
+				icon: "devicon-googlecloud-plain-wordmark",
+				hideName: true
+			},
 		],
 	},
 	{
@@ -286,11 +297,6 @@ export const skills = [
 				name: "Excel",
 				type: "i",
 				icon: "fas fa-file-excel",
-			},
-			{
-				name: "ViteJS",
-				type: "i",
-				icon: "devicon-vitejs-plain",
 			},
 			{
 				name: "Notion",
