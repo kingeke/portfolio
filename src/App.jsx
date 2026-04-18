@@ -21,6 +21,26 @@ export default function App() {
 
     }, []);
 
+    useEffect(() => {
+
+        if (!window.particlesJS?.load) {
+
+            return undefined;
+        }
+
+        window.particlesJS.load('site-particles', '/js/particles.json');
+
+        return () => {
+
+            const particleRoot = document.getElementById('site-particles');
+
+            if (particleRoot) {
+
+                particleRoot.innerHTML = '';
+            }
+        };
+
+    }, []);
     const logVisit = async () => {
 
         if (window.location.href.includes("localhost") || window.location.href.includes("127.0.0.1")) {
@@ -116,6 +136,7 @@ export default function App() {
         <div className={state.navbarActive ? 'side-nav-active' : ''}>
             <Navbar handleNavBar={handleNavBar} />
             <div className="main-content">
+                <div id="site-particles" className="particles-layer" aria-hidden="true"></div>
                 <Home handleNavBar={handleNavBar} />
                 <About skills={skills} />
                 <RecentWorks websites={websites} graphics={graphics} />

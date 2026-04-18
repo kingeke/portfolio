@@ -88,7 +88,30 @@ nav ul li a:hover {
 	width: calc(100% - 300px);
 	float: right;
 	min-height: 100vh;
+	position: relative;
+	isolation: isolate;
 	transition: 0.5s all ease;
+}
+
+.particles-layer {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 300px;
+	z-index: 0;
+	pointer-events: none;
+}
+
+.particles-layer canvas {
+	display: block;
+	width: 100% !important;
+	height: 100% !important;
+}
+
+.main-content > *:not(.particles-layer) {
+	position: relative;
+	z-index: 1;
 }
 
 .nav-button {
@@ -96,7 +119,7 @@ nav ul li a:hover {
 	position: fixed;
 	padding: 20px;
 	z-index: 99999;
-    cursor: pointer;
+	cursor: pointer;
 }
 
 .nav-button div {
@@ -138,14 +161,18 @@ nav ul li a:hover {
 	.main-content {
 		width: 100%;
 	}
+
+	.particles-layer {
+		left: 0;
+	}
 }
 
 #home {
-	background: rgb(18, 142, 136);
+	background: rgba(18, 142, 136, 0.72);
 	background: linear-gradient(
 		115deg,
-		rgb(18, 142, 136) 0%,
-		rgb(27, 95, 135) 76%
+		rgba(18, 142, 136, 0.72) 0%,
+		rgba(27, 95, 135, 0.72) 76%
 	);
 	background-size: 400% 400%;
 	height: 105vh;
@@ -165,8 +192,8 @@ nav ul li a:hover {
 #about {
 	background: linear-gradient(
 		115deg,
-		rgb(36, 96, 80) 0%,
-		rgb(68, 152, 130) 76%
+		rgba(36, 96, 80, 0.72) 0%,
+		rgba(68, 152, 130, 0.72) 76%
 	);
 	min-height: 100vh;
 	color: white;
@@ -255,8 +282,8 @@ nav ul li a:hover {
 	min-height: 100vh;
 	background: linear-gradient(
 		115deg,
-		rgb(238, 105, 88) 0%,
-		rgb(204, 73, 56) 76%
+		rgba(238, 105, 88, 0.72) 0%,
+		rgba(204, 73, 56, 0.72) 76%
 	);
 	color: white;
 	width: 100%;
@@ -316,8 +343,8 @@ nav ul li a:hover {
 #contact {
 	background: linear-gradient(
 		115deg,
-		rgb(113, 161, 245) 0%,
-		rgb(47, 83, 147) 76%
+		rgba(113, 161, 245, 0.72) 0%,
+		rgba(47, 83, 147, 0.72) 76%
 	);
 	color: white;
 	width: 100%;
