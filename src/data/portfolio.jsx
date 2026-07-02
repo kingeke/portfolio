@@ -9,6 +9,7 @@ import {
 	tecky,
 	yalla,
 	soarTask,
+	justCode,
 } from "../components/includes/Pictures";
 
 export const skills = [
@@ -308,6 +309,17 @@ export const skills = [
 ];
 
 export const websites = [
+	{
+		title: "JustCode",
+		type: "CLI + VSCode Extension",
+		description:
+			"A lean, transparent, open-source terminal coding assistant (plus a VS Code extension) where you control every token — it sends roughly 550 tokens per request with a system prompt you can read and edit, instead of the 7k–27k hidden prompts other tools inject. Bring your own provider and key (OpenAI, Anthropic, OpenRouter, Qwen, Ollama, LM Studio, or any OpenAI-compatible endpoint), ships as a self-contained binary with no runtime prerequisites, and supports MCP servers, chat modes, and file-backed sessions.",
+		languages: "TypeScript, React, Node.js, Bun, Vite",
+		timeline: "2 weeks",
+		images: justCode,
+		link: "https://justcodeapp.dev/",
+		gitHubLink: "https://github.com/kingeke/justcode",
+	},
 	{
 		title: "Letschipin",
 		type: "website",
