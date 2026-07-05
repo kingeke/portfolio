@@ -5,6 +5,7 @@ import {
 	letschipin,
 	perspective,
 	newsAggregator,
+	filtered,
 	renWorldBank,
 	tecky,
 	yalla,
@@ -319,6 +320,17 @@ export const websites = [
 		images: justCode,
 		link: "https://justcodeapp.dev/",
 		gitHubLink: "https://github.com/kingeke/justcode",
+	},
+	{
+		title: "Filtered",
+		type: "mobile app (iOS + Android) + admin dashboard",
+		description:
+			"Filtered is a dating app built around intentional matching: users answer personality questions and set fine-grained filters to connect with people who actually fit what they're looking for. It features real-time chat with voice notes, Spotlights, Sparks and community Spaces, local events, identity verification for safer dating, and premium subscriptions — all backed by a full admin platform for managing users, matches, content, and payments. Trusted by a growing community of nearly 2,000 users, available on iOS and Android at letsgetfiltered.com.",
+		languages:
+			"Flutter, Dart, Laravel, PHP, MySQL, Redis, React, InertiaJS, TailwindCSS, Laravel Reverb (WebSockets), Firebase, RevenueCat, Docker, AWS S3, Prometheus, Grafana",
+		timeline: "2 months",
+		images: filtered,
+		link: "https://letsgetfiltered.com",
 	},
 	{
 		title: "Letschipin",

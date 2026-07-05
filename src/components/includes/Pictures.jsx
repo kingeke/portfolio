@@ -90,6 +90,14 @@ export const justCode = [
     `${websites}/justcode-cli-in-action.png`,
 ];
 
+export const filtered = [
+    `${websites}/filtered-landing-page.png`,
+    `${websites}/filtered-admin-dashboard.png`,
+    `${websites}/filtered-matches.jpeg`,
+    `${websites}/filtered-sign-up.jpeg`,
+    `${websites}/filtered-spaces.jpeg`,
+];
+
 export const graphics = [
     `${graphicsLink}/CEO-BC.png`,
     `${graphicsLink}/Azuri-Flyer.png`,
